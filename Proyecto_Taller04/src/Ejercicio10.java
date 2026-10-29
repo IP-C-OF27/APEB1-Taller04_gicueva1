@@ -31,5 +31,9 @@ public class Ejercicio10 {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+run-single:
+Ingrese los siguientes datos en orden
+Base del Triangulo, Altura del Triangulo: 5 2,5
+El area total del pol�gono es: 56.25
+BUILD SUCCESSFUL (total time: 5 seconds)
  */

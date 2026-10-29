@@ -38,7 +38,7 @@ public class Ejercicio09 {
         }
         else{
             estado = "Reprobado";
-            System.out.preintln("No cumples con la asistencia mínima, por lo que no fuiste evaluado.");
+            System.out.println("No cumples con la asistencia mínima, por lo que no fuiste evaluado.");
             System.out.println("Su estado de aprobación es: " + estado);
         }
     }

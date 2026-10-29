@@ -17,6 +17,16 @@ import java.util.Scanner;
 public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
+        double baseTri, alturaTri, areaTri, areaRec, areaCuad, areaTotal;
+        System.out.println("Ingrese los siguientes datos en orden");
+        System.out.print("Base del Triangulo, Altura del Triangulo: ");
+        baseTri = tcl.nextDouble();
+        alturaTri = tcl.nextDouble();
+        areaTri = baseTri * alturaTri / 2;
+        areaRec = baseTri * alturaTri;
+        areaCuad = baseTri*baseTri;
+        areaTotal = (3*areaTri) + areaRec + areaCuad;
+        System.out.println("El area total del polígono es: " + areaTotal);
     }
 }
 /***
